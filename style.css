@@ -1,0 +1,150 @@
+nav {
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+nav > ul {
+    display: flex;
+    
+    
+}
+nav > ul > li {
+    margin-right: 90px;
+    justify-content: space-around;
+    list-style: none;
+}
+.banner {
+    display: flex;
+    margin-top: 20px;
+}
+.banner-img {
+    position: relative;   
+}
+.banner-text {
+bottom: 150px;
+position: absolute;
+padding-left: 40px;
+}
+.button {
+    align-items: center;
+
+}
+.button_1 {
+    background-color: ;
+    width: 80px;
+    height: 40px;
+    justify-content: center;
+    margin-left: 22px;
+    border-radius: 30px;
+}
+.button_2 {
+    background-color: ;
+    width: 100px;
+    height: 40px;
+    margin-left: 15px;
+    justify-content: center;
+    border-radius: 30px;
+}
+section {
+    text-align: center;
+}
+.videos > ul > li{
+    list-style: none;
+
+}
+.videos {
+    display: flex;
+    justify-content:space-around;
+    margin-right: 50px;
+}
+.online-videos {
+    display: flex;
+    gap:0px;
+    width: 1400px;
+    margin-bottom: 20px;
+}
+
+.caption {
+
+    width: 200px;
+    height: 60px;
+}
+#section-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.section-2-text {
+width: 340px;
+height: 180px;
+/* border: 2px solid salmon; */
+text-align: right;
+margin-left: 239px;
+padding-bottom: 20px;
+
+}
+.img-2 {
+    padding: 1px;
+    width: 301px;
+    border-radius: 3px;
+}
+.image-part-1 li {
+    list-style: none;
+    position: relative;
+}
+.image-part-2 li {
+    list-style: none;
+}
+
+.img-2 {
+    bottom:230px;
+    right: 200px;
+} 
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-span: 5;
+}
+.icons div button {
+    width: 200px;
+    height: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+}
+.icons .hover {
+    &:hover {
+        border: 1px solid #FF42A5;
+        border-radius: 5px;
+
+    }
+}
+.logo-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.foot-list-items {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.foot-list .foot-list-items > li {
+    list-style: none;
+}
+
+
