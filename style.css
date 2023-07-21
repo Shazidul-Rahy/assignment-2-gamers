@@ -71,12 +71,9 @@ bottom: 150px;
 position: absolute;
 padding-left: 40px;
 }
-/* /* .banner-img{
-    width: 40%;
-    height: auto; */
-}
-.banner-text-color { */
-    color: #F948B2;
+
+.banner-text-color {
+    color:#F948B2;
     font-size: 95px;
     font-weight: 800;
 }
@@ -354,9 +351,6 @@ footer {
    margin-top: 100px;
    justify-content: center;
 
-}
-address {
-   
 }
 
  }
