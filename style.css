@@ -205,8 +205,12 @@ footer {
     padding-left: 50px;
  }
  .section-2 {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display:inline-flex
+ }
+ .image-part-1 {
+    
  }
  .section-2-text {
     width: 200px;
