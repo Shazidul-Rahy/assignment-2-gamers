@@ -11,7 +11,6 @@ font-family: 'Work Sans', sans-serif;
 
 nav {
     display: flex;
-    /* background-color: aqua; */
     justify-content: space-around;
     align-items: center;
     margin-left: 24px;
@@ -25,7 +24,7 @@ nav {
 .list-item-text {
    width: 400px;
    justify-content: space-around;
-   /* margin-right: 20px; */
+
 
 }
 .list-item .aline-logo {
@@ -36,11 +35,10 @@ nav {
 }
 .aline-logo {
     width: 300px;
-    /* background-color:lightslategray; */
     justify-content: space-around;
     padding-left: 0px;
 }
-.text-color-1 {
+.logo .text-color-1 {
     color: #FF42A5;
     font-size: 45px;
     font-weight: 700;
