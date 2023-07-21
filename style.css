@@ -1,3 +1,14 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+}
+
+
 nav {
     display: flex;
     /* background-color: aqua; */
@@ -5,10 +16,20 @@ nav {
     align-items: center;
     margin-left: 24px;
 }
+.text-color-1 {
+    color: #FF42A5;
+    font-size: 45px;
+    font-weight: 700;
+}
 
 .logo {
     display: flex;
     align-items: center;
+}
+.aline-logo {
+    background-color: #0B0223;
+    margin-left: 20px;
+
 }
 nav > ul {
     display: flex;
@@ -32,28 +53,48 @@ bottom: 150px;
 position: absolute;
 padding-left: 40px;
 }
+.banner-text-color {
+    color: #F948B2;
+    font-size: 95px;
+    font-weight: 800;
+}
 .button {
     align-items: center;
 
 }
 .button_1 {
-    /* background-color: ; */
+    background-color:#FF42A5;
     width: 80px;
     height: 40px;
     justify-content: center;
     margin-left: 22px;
     border-radius: 30px;
+    border: none;
+    color:white;
 }
 .button_2 {
-    /* background-color: ; */
+    background-color: #FF42A5;
     width: 100px;
     height: 40px;
     margin-left: 15px;
     justify-content: center;
     border-radius: 30px;
+    border: none;
+    color:white;
 }
 section {
     text-align: center;
+}
+.text-color-1 {
+    color:black;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.text-color-2 {
+    color: #F948B2;
+    font-size: 48px;
+    font-weight: 700;
 }
 .videos > ul > li{
     list-style: none;
@@ -81,13 +122,17 @@ section {
     justify-content: space-between;
 }
 .section-2-text {
-width: 300px;
+width: 400px;
 height: 180px;
-/* border: 2px solid salmon; */
 text-align: right;
 margin-left: 239px;
 padding-bottom: 20px;
 
+}
+.section-2-text-color{
+    color: #F948B2;
+    font-size: 48px;
+    font-weight: 700;
 }
 .img-2 {
     padding: 1px;
@@ -129,6 +174,9 @@ padding-bottom: 20px;
     &:hover {
         border: 1px solid #FF42A5;
         border-radius: 5px;
+        color: #FF42A5;
+
+
 
     }
 }
@@ -193,6 +241,9 @@ footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
  }
+ .banner-text {
+    bottom: 20px;
+ }
  .online-videos{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -204,20 +255,31 @@ footer {
  .videos {
     padding-left: 50px;
  }
- .section-2 {
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
-    display:inline-flex
+ #section-2 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding-left: 50px;
+
  }
- .image-part-1 {
-    
+ .img-1 {
+    width: 50px;
+    padding-top: 50px;
+
  }
+ .img-2 {
+    right: 20px;
+ }
+ 
  .section-2-text {
-    width: 200px;
-    height: 180px;
     text-align:center;
-    margin-left: 50px;
-    padding-bottom: 20px;
+    margin-left: 100px;
+    justify-content: center;
+}
+.icons {
+  margin-left: 50px;
+  padding-bottom: 100px;
+
+
 }
 .grid-5 {
     display: grid;
@@ -260,9 +322,7 @@ address {
     margin-left: 100px;
 }
 
-
-  }
-
+ }
 
 
 
